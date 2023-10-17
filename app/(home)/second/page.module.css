@@ -1,0 +1,22 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem;
+  min-height: 100vh;
+}
+
+.whiteOutline {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 8px;
+  border: 5px solid rgb(255, 122, 122);
+}
+
+.link {
+  padding: 10px;
+  border-radius: 3px;
+  background-color: rgb(255, 23, 23);
+  border: 2px solid white;
+}

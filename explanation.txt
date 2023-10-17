@@ -1,0 +1,12 @@
+Repositório para testes do NextJS 13, novo método de gerenciamento de pastas das rotas.
+
+Pages foi abandonado (porém ainda pode ser utilizado).
+A nova organização utiliza de todas as pastas dentro do App, a diferenciação entre pastas de URL e pastas do sistema são as chaves especiais, iniciando com _ que indica que a pasta é privada para utilização interna e (nome da pasta) que indica que a pasta é utilizada para rotas, mas somente como agrupamento de rotas, não como parte do URL.
+
+Nextjs <13: 
+src -> pages -> home -> first -> index.tsx/js = localhost:3000/home/first
+src -> components -> card
+
+Nextjs >=13: 
+app -> (home) -> first -> page.tsx/js = localhost:3000/first
+app -> _components -> card
